@@ -1,4 +1,6 @@
-a = 10
-b = 20
-
-print("sum equal to = ", a+b)
+def sum(a,b):
+	return a+b
+	
+a = int(input("enter first value"))
+b = int(input("enter second value"))
+print("sum equal to = ", sum(a,b))
